@@ -44,7 +44,7 @@ bot.action('Gender', (ctx)=>{
     {
         reply_markup: {
             inline_keyboard : [
-                [{text: "Feminism for the 99%", url: "www.example.com"}], 
+                [{text: "Feminism for the 99%", url: "https://libgen.lc/ads.php?md5=12D84A6FC40C483D353401098CC9EF6F"}], 
                 [{text: "Back", callback_data: "Back"}]
             ]
         }
