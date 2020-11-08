@@ -6,6 +6,11 @@ A <a href="https://t.me/icantfindaname_bot">Telegram Bot</a> that provides you w
 <i>Built using Node.js</i>
 
 <h4> Choose from a variety of topics </h4> <br>
-<img src="https://github.com/nandiniproothi/icantfindaname-bot/blob/main/img/IMG_6849.PNG" height="400px"> &nbsp;
-<img src="https://github.com/nandiniproothi/icantfindaname-bot/blob/main/img/IMG_6850.PNG" height="400px">
+<img src="https://github.com/nandiniproothi/icantfindaname-bot/blob/main/img/IMG_6849.PNG" height="500px"> &nbsp;
 <br>
+
+<h4> Get access to resources! </h4> <br>
+<img src="https://github.com/nandiniproothi/icantfindaname-bot/blob/main/img/IMG_6851.jpg">
+<img src="https://github.com/nandiniproothi/icantfindaname-bot/blob/main/img/IMG_6852.jpg">
+<img src="https://github.com/nandiniproothi/icantfindaname-bot/blob/main/img/IMG_6854.jpg">
+<img src="https://github.com/nandiniproothi/icantfindaname-bot/blob/main/img/IMG_6855.jpg">
