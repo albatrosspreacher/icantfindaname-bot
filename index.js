@@ -1,19 +1,5 @@
 const Telegraf = require('telegraf'); // import telegram lib
-const express = require('express');
 require('dotenv').config();
-const app = express();
-
-const CURRENT_URL = "https://icantfindaname-bot.herokuapp.com/";
-//we will get the port from our web server process.env is a ENVIROMENT VAR
-//Heroku put this when will be host it
-let PORT = process.env.PORT || 3000
-
-var server = app.listen(process.env.PORT, function () {
-    var host = server.address().address;
-    var port = server.address().port;
-  
-    console.log('Web server started at http://%s:%s', host, port);
-  });
 
 const bot = new Telegraf(process.env.BOT_TOKEN); // get the token from envirenment variable
 bot.catch((err, ctx) => {
