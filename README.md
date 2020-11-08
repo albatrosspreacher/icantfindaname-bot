@@ -4,4 +4,4 @@ A <a href="https://t.me/icantfindaname_bot">Telegram Bot</a> that provides you w
 
 Built using Node.js
 
-![categories](img/IMG_6849.png)
+![categories](../img/IMG_6849.png)
