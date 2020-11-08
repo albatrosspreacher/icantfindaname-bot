@@ -8,6 +8,13 @@ const CURRENT_URL = "https://icantfindaname-bot.herokuapp.com/";
 //Heroku put this when will be host it
 let PORT = process.env.PORT || 3000
 
+var server = app.listen(process.env.PORT, function () {
+    var host = server.address().address;
+    var port = server.address().port;
+  
+    console.log('Web server started at http://%s:%s', host, port);
+  });
+
 const bot = new Telegraf(process.env.BOT_TOKEN); // get the token from envirenment variable
 bot.catch((err, ctx) => {
     console.log(`Ooops, encountered an error for ${ctx.updateType}. Please contact smol.`, err);
