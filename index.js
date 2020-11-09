@@ -31,6 +31,7 @@ bot.action('Capitalism', (ctx)=>{
     {
         reply_markup: {
             inline_keyboard : [
+                [{text: "Capitalism 101", url: "https://drive.google.com/file/d/11yRcUups9ihJgyL3BxmWTaQF6qtkvhsg/view?usp=sharing"}],
                 [{text: "The ABCs of Socialism", url: "https://s3.jacobinmag.com/issues/jacobin-abcs.pdf"}], 
                 [{text: "The Various Tendencies Under Socialism", url: "https://youtu.be/vyl2DeKT-Vs"}], 
                 [{text: "Back", callback_data: "Back"}]
