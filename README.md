@@ -3,7 +3,7 @@
 <h1> Resources Bot for Telegram</h1>
 A <a href="https://t.me/icantfindaname_bot">Telegram Bot</a> that provides you with resources on a bunch of topics!
 
-<i>Built using Node.js</i>
+<i>Built using Node.js</i> <br>
 <i> Resources collected by - Hamsadhwani Algarsamy, Idea by - Bhavya Gopal </i>
 
 <h3> Choose from a variety of topics </h3> <br>
