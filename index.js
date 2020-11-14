@@ -24,7 +24,9 @@ bot.command('categories', (ctx)=>{
         }
     })
 })
-
+bot.catch((err, ctx) => {
+    console.log(`error ;-;\n ${err}`);
+})
 bot.action('Capitalism', (ctx)=>{
     ctx.deleteMessage();
     ctx.telegram.sendMessage(ctx.chat.id, 'Here are some references for Capitalism!', 
