@@ -2,12 +2,6 @@ const Telegraf = require("telegraf"); // import telegram lib
 require("dotenv").config();
 
 const bot = new Telegraf(process.env.BOT_TOKEN); // get the token from envirenment variable
-bot.catch((err, ctx) => {
-  console.log(
-    `Ooops, encountered an error for ${ctx.updateType}. Please contact smol.`,
-    err
-  );
-});
 bot.start(ctx => ctx.reply("Hello! Please use /help for more information.")); // display Welcome text when we start bot
 bot.hears("hi", ctx =>
   ctx.reply(
